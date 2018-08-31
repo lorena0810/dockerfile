@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  dokuwiki:
+    build: .
+    ports:
+      - "80:80"
+
+#  mysql:
+#    # build: ./msql
+#    image: "mysql:latest"
+#    ports:
+#      - "3306:3306"
